@@ -9,13 +9,10 @@ Missingness matrix, Pearson correlation heatmap, class‑wise count plots for ke
 Feature engineering: Label‑encode proto/service/state; correlation‑based pruning (|r| ≥ 0.95); Min‑Max scaling.
 
 ## Models
-Keras MLP (2 hidden layers, ReLU, sigmoid, Adam, EarlyStopping).
+Keras MLP 
+Random Forest
+Decision Tree 
 
-Random Forest (e.g., 300 trees, tuned depth/splitting).
-
-Decision Tree (tuned max_depth, min_samples_split, min_samples_leaf).
-
-Linear SVM via SGD (hinge loss, L2).
 
 ## Attack & robustness
 JSMA (Jacobian‑based Saliency Map Attack) via CleverHans (TF v1‑compat) to craft adversarial samples from the clean test set and measure degradation.
