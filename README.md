@@ -17,4 +17,4 @@ Decision Tree
 ## Attack & robustness
 JSMA (Jacobian‑based Saliency Map Attack) via CleverHans (TF v1‑compat) to craft adversarial samples from the clean test set and measure degradation.
 
-Metrics & plots: Accuracy, F1, confusion matrices (clean vs adversarial), and a feature‑susceptibility bar chart (which features were perturbed most often).
+Metrics & plots: Accuracy, F1, confusion matrices (clean vs adversarial)
